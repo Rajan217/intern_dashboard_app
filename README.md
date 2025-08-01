@@ -1,16 +1,50 @@
-# intern_dashboard_app
+Markdown
 
-A new Flutter project.
+# Intern Dashboard App
+
+A simple Flutter UI application simulating a dashboard for a fundraising intern. This project was built to demonstrate proficiency in Flutter's UI development, state management, and project structure.
+
+## Features
+
+- **Login Screen:** A simple UI-only login page.
+- **Dashboard:** Displays key information like intern name, referral code, and total donations raised.
+- **Leaderboard:** Shows a list of top interns with their donation scores using mock data.
+- **Announcements:** A feed of static announcements.
+
+## Technologies Used
+
+- **Flutter:** The UI framework for building the application.
+- **Dart:** The programming language used in Flutter.
+- **Google Fonts:** For custom and modern typography.
+
+## Project Structure
+
+The project follows a clean architecture with the following folder structure:
+
+lib/
+├── data/           # Contains dummy data for the app
+├── screens/        # Holds all the individual screens/pages
+├── widgets/        # Reusable UI components like cards
+└── main.dart       # The main entry point of the app
+
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+To run this project locally, ensure you have Flutter and Git installed.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1.  Clone the repository:
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/intern_dashboard_app.git](https://github.com/YOUR_USERNAME/intern_dashboard_app.git)
+    ```
+2.  Navigate to the project directory:
+    ```bash
+    cd intern_dashboard_app
+    ```
+3.  Install dependencies:
+    ```bash
+    flutter pub get
+    ```
+4.  Run the app on a connected device or emulator:
+    ```bash
+    flutter run
+    ```
